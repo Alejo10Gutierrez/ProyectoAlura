@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  background-color: #f3f5fc;
+  color: var(--color-secundario);
+  width: 100%;
+  height: 100%;
+}
+.imagen__logo {
+  height: 3rem;
+  width: 7.5rem;
+  margin: 40px 0px 0px 40px;
+}
+.main__cript {
+  /* width: 1em;
+  height: 1em; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.textoEncriptar {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  margin-right: 80px;
+  width: 60%;
+  height: 40%;
+}
+.divEncriptar {
+  margin-left: 80px;
+  width: 50%;
+}
+.textareaIngreso {
+  margin-top: 168px;
+  /* margin-left: 80px; */
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  color: #0a3871;
+  background-color: #00000000;
+  border: none;
+  width: 30rem;
+  height: 30rem;
+}
+.textareaIngreso::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  color: #0a3871;
+}
+.advertencia {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+}
+.botones_cript {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.boton-encriptar {
+  width: 50%;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  background-color: #0a3871;
+  padding: 24px;
+  border: 0px;
+  border-radius: 24px;
+}
+.boton-desencriptar {
+  width: 50%;
+  color: white;
+  background-color: #d8dfe8;
+  color: #0a3871;
+  border-color: #0a3871;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  border: 1px solid;
+  padding: 24px;
+  border-radius: 24px;
+}
+.textoEncriptado {
+  background-color: #ffffff;
+  text-align: center;
+  align-items: center;
+  border-radius: 32px;
+  height: 44rem;
+  width: 40rem;
+  /* heigt: 100%;
+  padding-top: 100%; */
+  /* background-color: black; */
+  margin: 40px 40px 40px 0px;
+}
+.imagen_muneco {
+  margin: 32px 32px 32px 32px;
+}
+.encriptacion {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  margin: 2rem;
+  color: #495057;
+}
+.encriptacion {
+  text-align: left;
+  max-width: 100%;
+}
+.encriptado{
+  width: 25rem;
+}
+@media (max-width: 1200px) {
+  .textoEncriptar {
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0px;
+    gap: 0px;
+  }
+  .textoEncriptado {
+    width: 100%;
+    align-items: center;
+    gap: 0px;
+  }
+  .main__cript {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    /* align-items: center; */
+  }
+  .divEncriptar {
+    width: 100%;
+    align-items: center;
+    gap: 0px;
+  }
+  .textareaIngreso {
+    margin-top: 2rem;
+    width: 80%;
+  }
+  .imagen__logo {
+    margin: 40px 0px 0px 0px;
+  }
+  .botones_cript {
+    width: 80%;
+  }
+  .imagen_muneco {
+    display: none;
+  }
+  .encriptacion {
+    text-align: left;
+    max-width: 100%;
+  }
+  .botoncopí {
+    margin: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+}
